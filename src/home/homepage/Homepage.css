@@ -1,0 +1,27 @@
+.gallery {
+    display: grid;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.homepage {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+    border: 1px solid white;
+    justify-content: center;
+    min-height: 85vh;
+}
+
+.card {
+    /* height: 100%; */
+    width: 269px;
+    height: 336px;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+img {
+    max-width: 90%;
+    max-height: 90%;
+}
